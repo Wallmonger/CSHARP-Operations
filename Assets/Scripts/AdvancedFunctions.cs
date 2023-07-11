@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class AdvancedFunctions : MonoBehaviour
 {
-    public Material mat;
     public Color targetColor;
     
     void Start()
@@ -14,7 +13,8 @@ public class AdvancedFunctions : MonoBehaviour
 
     void ChangeColor(Color c)
     {
-        mat.color = c;
+        // Récupérer un composant avec la fonction GetComponent au lieu de l'instancier en tant que variable
+        GetComponent<Renderer>().material.color = c;
     }
     
 }
