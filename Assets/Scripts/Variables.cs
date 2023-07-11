@@ -1,19 +1,13 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-// PremierScript hérite de MonoBehaviour, permet d'accéder à des fonctionnalités de unity.
-public class PremierScript : MonoBehaviour
+public class Variables : MonoBehaviour
 {
-
-   
-
     // Start is called before the first frame update
     void Start()
     {
-        gameObject.SetActive(true);
-        gameObject.name = "Object";
+        
     }
 
     // Update is called once per frame
@@ -21,6 +15,4 @@ public class PremierScript : MonoBehaviour
     {
         
     }
-
-   
 }
