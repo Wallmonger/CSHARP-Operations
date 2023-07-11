@@ -14,8 +14,8 @@ public class Functions : MonoBehaviour
 
         // InvokeRepeating works like setInterval (method, timer, repeatingRate)
         // Invoke works like setTimeout
-        InvokeRepeating("TestFunction", 2f, 2f);
-        Invoke("TestFunction2", 5f);
+        /*InvokeRepeating("TestFunction", 2f, 2f);
+        Invoke("TestFunction2", 5f);*/
 
         
     }
