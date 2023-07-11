@@ -6,15 +6,17 @@ public class AdvancedFunctions : MonoBehaviour
 {
     public Color targetColor;
     
+    
     void Start()
     {
-        ChangeColor(targetColor);
+        ChangeColor();
     }
 
-    void ChangeColor(Color c)
+    void ChangeColor()
     {
         // Récupérer un composant avec la fonction GetComponent au lieu de l'instancier en tant que variable
-        GetComponent<Renderer>().material.color = c;
+        GetComponent<Renderer>().material.color = targetColor;
+        GetComponent<Rigidbody>().useGravity = true;
     }
     
 }
