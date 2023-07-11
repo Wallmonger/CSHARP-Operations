@@ -11,7 +11,7 @@ public class Conditions : MonoBehaviour
 
     void Start()
     {
-        if (age > 25)
+        /*if (age > 25)
         {
             if (exemple) 
             {
@@ -20,7 +20,7 @@ public class Conditions : MonoBehaviour
                     print("is ok");
                 }
             }
-        }
+        }*/
     }
 
     

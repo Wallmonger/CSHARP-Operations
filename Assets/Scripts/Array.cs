@@ -18,7 +18,7 @@ public class Array : MonoBehaviour
             print(val);
         }*/
 
-        print(tab.Length);
+        /*print(tab.Length);*/
     }
 
     

@@ -15,13 +15,13 @@ public class Boucles : MonoBehaviour
         }
         */
         
-        int i = 0;
+        /*int i = 0;
         while (i < 100) 
         {
             i++;
             print("bien le bonjour");
         }
-        print("value of i is now equal to " + i);
+        print("value of i is now equal to " + i);*/
     }
 
     // Update is called once per frame
